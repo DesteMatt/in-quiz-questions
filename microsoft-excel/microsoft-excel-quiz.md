@@ -153,7 +153,7 @@
 - [ ] Protect Worksheet
 - [ ] Conditional Formatting
 - [ ] Allow Users to Edit Ranges
-- [ ] Data Validation
+- [X] Data Validation
 
 #### Q23. To round up a value to the nearest increment of your choice, such as the next five cents, what function should you use?
 
@@ -243,17 +243,17 @@
 - [ ] Cell style
 - [ ] Fill color
 - [ ] Pattern style
-- [ ] Font color
+- [X] Font color
 
 #### Q36. In Excel, what do most formulas begin with?
 - [ ] :
-- [ ] =
+- [X] =
 - [ ] (
 - [ ] *
 
 #### Q37. You are working with columns whose width and font size should not be changed. Yet the columns are too narrow to display all the text in each cell. What tool should you use to solve this problem?
 - [ ] Fill Handle
-- [ ] Wrap Text
+- [X] Wrap Text
 - [ ] Sparklines
 - [ ] Centered Alignment
 
@@ -269,12 +269,12 @@
 |6|Chiquita Walsh|$684,760.00||
 
 - [ ] =$A1*B3
-- [ ] =$A$1*B3
+- [X] =$A$1*B3
 - [ ] =A1*$B3
 - [ ] =A1*B3
 
 #### Q39. If you start a date series by dragging down the fill handle of a single cell that contains the date 12/1/19, what will you get?
-- [ ] a series of consecutive days following the initial date
+- [X] a series of consecutive days following the initial date
 - [ ] a series of days exactly one month apart
 - [ ] a series of days identical to the initial date
 - [ ] a series of days exactly one year apart
@@ -283,28 +283,28 @@
 - [ ] COUNT
 - [ ] SUMIFS
 - [ ] COUNTA
-- [ ] COUNTIE
+- [X] COUNTIF
 
 #### Q41. Of these four chart types, which works best for summarizing time-based data?
 - [ ] pie chart
 - [ ] XY scatter chart
 - [ ] bar chart
-- [ ] line chart
+- [X] line chart
 
 #### Q42. Your worksheet has the value 27 in cell B3. What value is returned by the function =MOD (B3,6)?
 - [ ] 4
 - [ ] 1
 - [ ] 5
-- [ ] 3
+- [X] 3
 
 #### Q43. For an IF function to check whether cell B3 contains a value between 15 and 20 inclusively, what condition should you use?
 - [ ] OR(B3=>15,B3<=20)
-- [ ] AND (B3>=15,B3<=20)
+- [X] AND (B3>=15,B3<=20)
 - [ ] OR(B3>15,B3<20)
 - [ ] AND(B3>15, B3<20)
 
 #### Q44. Which of these functions returns the largest value within the range H2:H30?
 - [ ] =MAXIMUM (H2:H30)
-- [ ] =MAX(H2:H30)
+- [X] =MAX(H2:H30)
 - [ ] =LARGE (H2:H30, 29)
 - [ ] =UPPER(H2:H30,1)
