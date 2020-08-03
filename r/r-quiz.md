@@ -5,7 +5,7 @@
 - [ ] A matrix may contain numeric values only.
 - [ ] A matrix must not be singular.
 - [ ] A data frame may contain variables that have different modes.
-- [ ] A data frame may contain variables of different lengths.
+- [x] A data frame may contain variables of different lengths.
 
 #### Q2. What value does this statement return?
 
@@ -104,7 +104,7 @@ xvect
 - [ ] `class( d.pizza( , "temperature" ) )`
 - [ ] `class( d.pizza[ , "temperature" ] )`
 - [ ] `class( d.pizza$temperature )`
-- [ ] `class( d.pizza[ , "temperature", drop=F ] )`
+- [x] `class( d.pizza[ , "temperature", drop=F ] )`
 
 #### Q14. What does c contain?
 
@@ -189,7 +189,7 @@ y <- x/1
 
 - [ ] `cor.test(Var1 ~ Var2)`
 - [ ] `cor.test(mydata$(Var1,Var2))`
-- [ ] `cor.test(mydata$Var1,mydata$Var2)`
+- [x] `cor.test(mydata$Var1,mydata$Var2)`
 - [ ] `cor.test(Var1,Var2, mydata)`
 
 #### Q23. A data frame named d.pizza is part of the DescTools package. A statement is missing from the following R code and an error is therefore likely to occur. Which statement is missing?
@@ -200,7 +200,7 @@ deliver <- aggregate(count,by=list(area,driver), FUN=mean)
 print(deliver)
 ```
 
-- [ ] `attach(d.pizza)`
+- [x] `attach(d.pizza)`
 - [ ] `summarize(deliver)`
 - [ ] `mean <- rbind(d.pizza,count)`
 - [ ] `deliver[!complete.cases(deliver),]`
@@ -208,7 +208,7 @@ print(deliver)
 #### Q24. Which combinations of functions set the row and column names in the data.frame() and in the matrix() functions?
 
 - [ ] data frame: names() and rownames() matrix: colnames() and row.names()
-- [ ] data frame: names() and row.names() matrix: dimnames()
+- [x] data frame: names() and row.names() matrix: dimnames()
 - [ ] data frame: colnames() and row.names() matrix: names() and rownames()
 - [ ] data frame: colnames() and rownames() matrix: names() and row.names()
 
@@ -226,7 +226,7 @@ vbound<-cbind(v1,v2)
 
 ```r
 v1<-c(1,2,3)
-v2<-list(4,5,6))
+v2<-list(4,5,6)
 vbound<-cbind(v1,v2)
 ```
 
@@ -234,11 +234,17 @@ vbound<-cbind(v1,v2)
 
 ```r
 v1<-c(1,2,3)
-v2<-c(4,5,6))
+v2<-c(4,5,6)
 vbound<-cbind(v1,v2)
 ```
 
-- [ ]
+- [x]
+
+```r
+v1<-c(1,2,3)
+v2<-data.frame(c(4,5,6))
+vbound<-cbind(v1,v2)
+```
 
 #### Q26. ournames is a character vector. What values does the statement below return to Cpeople?
 
